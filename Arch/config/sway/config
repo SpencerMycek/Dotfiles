@@ -253,6 +253,10 @@ client.placeholder          $magenta	$magenta	$silver	    $magenta    $magenta
 #    }
 #}
 
+input "1386:20554:Wacom_Pen_and_multitouch_sensor_Finger" map_to_output "Unknown 0x06AC 0x00000000"
+input "1386:20554:Wacom_Pen_and_multitouch_sensor_Pen" map_to_output "Unknown 0x06AC 0x00000000"
+#output "Unknown 0x06AC 0x00000000" transform 90
+
 exec_always ~/.config/waybar/waybar.sh
 
 include /etc/sway/config.d/*

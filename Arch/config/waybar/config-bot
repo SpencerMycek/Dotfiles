@@ -1,0 +1,29 @@
+{
+
+    "layer": "top", // Waybar at top layer
+
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+
+    "height": 35, // Waybar height (to be removed for auto height)
+
+    "modules-left": ["custom/rotate-left", "custom/rotate-right"],
+
+    "modules-center": [],
+
+    "modules-right": [],
+
+
+    "custom/rotate-left": {
+
+        "format": "🔄",
+        "on-click": "~/.config/waybar/modules/rotate-left.sh"
+
+    },
+
+    "custom/rotate-right": {
+
+        "format": "🔃",
+        "on-click": "~/.config/waybar/modules/rotate-right.sh"
+
+    }
+}

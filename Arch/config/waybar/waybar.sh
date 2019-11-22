@@ -7,4 +7,5 @@ killall -q waybar
 while pgrep -x waybar >/dev/null; do sleep 1; done
 
 # Launch main
-waybar
+waybar --config ~/.config/waybar/config-top & 1>/dev/null 
+waybar --config ~/.config/waybar/config-bot & 1>/dev/null
