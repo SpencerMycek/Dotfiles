@@ -1,0 +1,21 @@
+# Check man swaylock for descriptions of these configurations
+## Image Config
+screenshots
+effect-blur=7x5
+effect-vignette=.7:.5
+
+## Clock Config
+clock
+
+## Indicator Config
+indicator
+indicator-radius=100
+indicator-thickness=7
+
+## Color Config
+ring-color=bb00cc
+key-hl-color=880033
+line-color=00000000
+inside-color=00000088
+separator-color=00000000
+
