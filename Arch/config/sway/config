@@ -33,7 +33,9 @@ set $swaylock swaylock -config ~/.config/swaylock | xargs swaymsg exec 0
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+#output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg ~/.config/wallpapers/tiamat.jpg fill
+
 #
 # Example configuration:
 #
