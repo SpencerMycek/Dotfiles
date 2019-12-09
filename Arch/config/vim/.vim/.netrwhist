@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/spencer/Documents/git/DnDatabase/Pathfinder'
+let g:netrw_dirhist_4='/home/spencer/Documents/git/WebCheckers/src/main/java/com/webcheckers/model'
+let g:netrw_dirhist_3='/home/spencer/Documents/git/WebCheckers/src/main/java/com/webcheckers'
+let g:netrw_dirhist_2='/home/spencer/Documents/git/WebCheckers/src/main/java/com'
+let g:netrw_dirhist_1='/home/spencer/Documents/git/WebCheckers/src/main/java'
+let g:netrw_dirhist_0='/home/spencer/Documents/git/WebCheckers/src/main'
+let g:netrw_dirhist_9='/home/spencer/Documents/git/WebCheckers/src'
+let g:netrw_dirhist_8='/home/spencer/Documents/git/WebCheckers/src/test/java/com/webcheckers/ui'
+let g:netrw_dirhist_7='/home/spencer/Documents/git/WebCheckers/src/test/java/com/webcheckers'
+let g:netrw_dirhist_6='/home/spencer/Documents/git/WebCheckers/src/test/java/com'
