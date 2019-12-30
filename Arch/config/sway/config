@@ -5,7 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 
 # Disable XWayland so things run on pure wayland
-xwayland disable
+#xwayland disable
 
 # Window Control
 default_border pixel

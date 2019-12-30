@@ -54,3 +54,9 @@ nnoremap <space> za
 """""""""""""""""""""""""
 let mapleader=","
 
+
+"""""""""""""""""""""""""
+" Plugins
+"""""""""""""""""""""""""
+so ~/.vim/plugins.vim
+
