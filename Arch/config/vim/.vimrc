@@ -14,6 +14,7 @@ syntax enable
 set tabstop=4       " Number of visual spaces per TAB
 set softtabstop=4   " Number of spaces in tab when editing
 set expandtab       " tabs are spaces
+set shiftwidth=4
 
 """""""""""""""""""""""""
 " Mouse Control
@@ -59,4 +60,7 @@ let mapleader=","
 " Plugins
 """""""""""""""""""""""""
 so ~/.vim/plugins.vim
+
+"Command for Nerd Tree plugin
+map <C-n> :NERDTreeToggle<CR>
 
