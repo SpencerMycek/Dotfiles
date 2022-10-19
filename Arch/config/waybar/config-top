@@ -215,6 +215,7 @@
     "network": {
 
         // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "interface": "wlan0",
 
         "format-wifi": "{essid} ({signalStrength}%) ",
 
